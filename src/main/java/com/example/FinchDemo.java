@@ -10,7 +10,7 @@ public class FinchDemo {
 
         for (int i = 0; i < 5; i++) {
             myFinch.setBeak(100, 100, 100);
-            myFinch.pause();
+            myFinch.pause(1);
             myFinch.setBeak(0, 0, 0);
             myFinch.pause(1);
         }
